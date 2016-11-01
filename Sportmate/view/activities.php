@@ -2,36 +2,45 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="css/common.css" rel="stylesheet" type="text/css" />
-    <link href="css/act.css" rel="stylesheet" type="text/css"/>
-    <script src="js/act.js"></script>
+    <link href="../public/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="../public/css/act.css" rel="stylesheet" type="text/css"/>
+    <script src="../public/js/act.js"></script>
     <title>活动列表</title>
+
 </head>
 <body>
 
 <div class="header">
     <div class="wrap">
-        <div class="logo"> <a href="index.html"><img src="images/icon/logo.png" alt=""/></a> </div>
+        <div class="logo"> <a href="main.php"><img src="../public/images/icon/logo.png" alt=""/></a> </div>
         <div class="header-right">
             <div id='cssmenu'>
                 <ul>
-                    <li class="active"><a href='activities.html' ><span>活动列表</span></a></li>
+                    <li class="active"><a href='activities.php' ><span>活动列表</span></a></li>
                     |
-                    <li><a href='mine.html'><span>我的活动</span></a>
+                    <li><a href='mine.php'><span>我的活动</span></a>
                         <ul>
-                            <li class='has-sub'><a href='mine.html'><span>活动</span></a></li>
-                            <li class='has-sub'><a href='minedata.html'><span>运动信息</span></a></li>
+                            <li class='has-sub'><a href='mine.php'><span>活动</span></a></li>
+                            <li class='has-sub'><a href='minedata.php'><span>运动信息</span></a></li>
                         </ul>
                     </li>
                     |
-                    <li><a href='friends.html'><span>我的好友</span></a></li>
+                    <li><a href='friends.php'><span>我的好友</span></a></li>
                     |
-                    <li><a href='info.html'><span>个人信息</span></a>
+                    <li><a href='info.php'><span>个人信息</span></a>
 
                     </li>
                     |
                     <li class='last'><a href='#'><span>退出</span></a></li>
                 </ul>
+                <?php
+                class Index {
+                    public function display($output) {
+                        // ob_start();
+                        echo $output;
+                    }
+                }
+                ?>
             </div>
             <div class="search_box">
                 <form>
@@ -91,7 +100,7 @@
 
         <div class="summary">
             <div class="act_img">
-                <img onclick="window.open('#','_blank')" src="images/sport1.jpg" width="172">
+                <img onclick="window.open('#','_blank')" src="../public/images/sport1.jpg" width="172">
             </div>
             <div class="words">
                 <div>
@@ -116,7 +125,7 @@
         </div>
         <div class="summary">
             <div class="act_img">
-                <img onclick="window.open('#','_blank')" src="images/sport1.jpg" width="172">
+                <img onclick="window.open('#','_blank')" src="../public/images/sport1.jpg" width="172">
             </div>
             <div class="words">
                 <div>
@@ -135,7 +144,7 @@
         </div>
         <div class="summary">
             <div class="act_img">
-                <img onclick="window.open('#','_blank')" src="images/sport1.jpg" width="172">
+                <img onclick="window.open('#','_blank')" src="../public/images/sport1.jpg" width="172">
             </div>
             <div class="words">
                 <div>
@@ -156,7 +165,7 @@
         </div>
         <div class="summary">
             <div class="act_img">
-                <img onclick="window.open('#','_blank')" src="images/sport1.jpg" width="172">
+                <img onclick="window.open('#','_blank')" src="../public/images/sport1.jpg" width="172">
             </div>
             <div class="words">
                 <div>

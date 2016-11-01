@@ -3,9 +3,9 @@
 <head>
     <title>个人信息</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="css/common.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/slide.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/info.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../public/css/common.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../public/css/slide.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../public/css/info.css" rel="stylesheet" type="text/css" media="all" />
 
 
 </head>
@@ -13,23 +13,23 @@
 
 <div class="header">
     <div class="wrap">
-        <div class="logo"> <a href="index.html"><img src="images/icon/logo.png" alt=""/></a> </div>
+        <div class="logo"> <a href="main.php"><img src="../public/images/icon/logo.png" alt=""/></a> </div>
         <div class="header-right">
             <div id='cssmenu'>
                 <ul>
-                    <li><a href='activities.html' ><span>活动列表</span></a></li>
+                    <li><a href='activities.php' ><span>活动列表</span></a></li>
                     |
-                    <li><a href='mine.html'><span>我的活动</span></a>
+                    <li><a href='mine.php'><span>我的活动</span></a>
                         <ul>
-                            <li class='has-sub'><a href='mine.html'><span>活动</span></a></li>
-                            <li class='has-sub'><a href='minedata.html'><span>运动信息</span></a></li>
+                            <li class='has-sub'><a href='mine.php'><span>活动</span></a></li>
+                            <li class='has-sub'><a href='minedata.php'><span>运动信息</span></a></li>
                         </ul>
 
                     </li>
                     |
-                    <li><a href='friends.html'><span>我的好友</span></a></li>
+                    <li><a href='friends.php'><span>我的好友</span></a></li>
                     |
-                    <li class=' active' ><a href='info.html'><span>个人信息</span></a>
+                    <li class=' active' ><a href='info.php'><span>个人信息</span></a>
 
                     </li>
                     |
@@ -98,7 +98,7 @@
                     <dt class="inputtop">头像</dt>
                     <dd>
                         <div class="pic">
-                            <img src="images/icon/sport2.png">
+                            <img src="../public/images/icon/sport2.png">
                         </div>
                         <div class="blank20"></div>
                         <form action="" method="post" enctype="multipart/form-data" onsubmit="return check_port(this)">

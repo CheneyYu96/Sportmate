@@ -3,30 +3,30 @@
 <head>
     <title>我的活动</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="css/common.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/slide.css" rel="stylesheet" type="text/css">
+    <link href="../public/css/common.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../public/css/slide.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
 
 <div class="header">
     <div class="wrap">
-        <div class="logo"> <a href="index.html"><img src="images/icon/logo.png" alt=""/></a> </div>
+        <div class="logo"> <a href="main.php"><img src="../public/images/icon/logo.png" alt=""/></a> </div>
         <div class="header-right">
             <div id='cssmenu'>
                 <ul>
-                    <li><a href='activities.html' ><span>活动列表</span></a></li>
+                    <li><a href='activities.php' ><span>活动列表</span></a></li>
                     |
-                    <li class="active"><a href='mine.html'><span>我的活动</span></a>
+                    <li class="active"><a href='mine.php'><span>我的活动</span></a>
                         <ul>
-                            <li class='has-sub'><a href='mine.html'><span>活动</span></a></li>
-                            <li class='has-sub'><a href='minedata.html'><span>运动信息</span></a></li>
+                            <li class='has-sub'><a href='mine.php'><span>活动</span></a></li>
+                            <li class='has-sub'><a href='minedata.php'><span>运动信息</span></a></li>
                         </ul>
                     </li>
                     |
-                    <li><a href='friends.html'><span>我的好友</span></a></li>
+                    <li><a href='friends.php'><span>我的好友</span></a></li>
                     |
-                    <li ><a href='info.html'><span>个人信息</span></a>
+                    <li ><a href='info.php'><span>个人信息</span></a>
                     </li>
                     |
                     <li class='last'><a href='#'><span>退出</span></a></li>
@@ -70,7 +70,7 @@
                         运动信息
                     </div>
                     <div class="blank5"></div>
-                    <a href="minedata.html">
+                    <a href="minedata.php">
                     <div id="my_data" class="menu_item_span">
                         运动分析
                     </div>

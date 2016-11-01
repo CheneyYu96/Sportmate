@@ -3,9 +3,9 @@
 <head>
     <title>我的好友</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="css/common.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/slide.css" rel="stylesheet" type="text/css">
-    <link href="css/friends.css" rel="stylesheet" type="text/css">
+    <link href="../public/css/common.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../public/css/slide.css" rel="stylesheet" type="text/css">
+    <link href="../public/css/friends.css" rel="stylesheet" type="text/css">
 
 
 </head>
@@ -13,22 +13,22 @@
 
 <div class="header">
     <div class="wrap">
-        <div class="logo"> <a href="index.html"><img src="images/icon/logo.png" alt=""/></a> </div>
+        <div class="logo"> <a href="main.php"><img src="../public/images/icon/logo.png" alt=""/></a> </div>
         <div class="header-right">
             <div id='cssmenu'>
                 <ul>
-                    <li><a href='activities.html' ><span>活动列表</span></a></li>
+                    <li><a href='activities.php' ><span>活动列表</span></a></li>
                     |
-                    <li><a href='mine.html'><span>我的活动</span></a>
+                    <li><a href='mine.php'><span>我的活动</span></a>
                         <ul>
-                            <li class='has-sub'><a href='mine.html'><span>活动</span></a></li>
-                            <li class='has-sub'><a href='minedata.html'><span>运动信息</span></a></li>
+                            <li class='has-sub'><a href='mine.php'><span>活动</span></a></li>
+                            <li class='has-sub'><a href='minedata.php'><span>运动信息</span></a></li>
                         </ul>
                     </li>
                     |
-                    <li  class="active"><a href='friends.html'><span>我的好友</span></a></li>
+                    <li  class="active"><a href='friends.php'><span>我的好友</span></a></li>
                     |
-                    <li><a href='info.html'><span>个人信息</span></a>
+                    <li><a href='info.php'><span>个人信息</span></a>
 
                     </li>
                     |
@@ -58,7 +58,7 @@
                 <ul class="products-list product-list-in-box">
                     <li class="item">
                         <div class="product-img">
-                            <img src="images/icon/sport2.png" alt="Product Image">
+                            <img src="../public/images/icon/sport2.png" alt="Product Image">
                         </div>
                         <div class="product-info">
                             <a href="javascript:void(0)" class="product-title">Jack</a>
@@ -70,7 +70,7 @@
                     <!-- /.item -->
                     <li class="item">
                         <div class="product-img">
-                            <img src="images/icon/sport2.png" alt="Product Image">
+                            <img src="../public/images/icon/sport2.png" alt="Product Image">
                         </div>
                         <div class="product-info">
                             <a href="javascript:void(0)" class="product-title">小宏</a>
@@ -82,7 +82,7 @@
                     <!-- /.item -->
                     <li class="item">
                         <div class="product-img">
-                            <img src="images/icon/sport2.png" alt="Product Image">
+                            <img src="../public/images/icon/sport2.png" alt="Product Image">
                         </div>
                         <div class="product-info">
                             <a href="javascript:void(0)" class="product-title">小明 </a>
@@ -94,7 +94,7 @@
                     <!-- /.item -->
                     <li class="item">
                         <div class="product-img">
-                            <img src="images/icon/sport2.png" alt="Product Image">
+                            <img src="../public/images/icon/sport2.png" alt="Product Image">
                         </div>
                         <div class="product-info">
                             <a href="javascript:void(0)" class="product-title">小王</a>
@@ -106,7 +106,7 @@
                     <!-- /.item -->
                     <li class="item">
                         <div class="product-img">
-                            <img src="images/icon/sport2.png" alt="Product Image">
+                            <img src="../public/images/icon/sport2.png" alt="Product Image">
                         </div>
                         <div class="product-info">
                             <a href="javascript:void(0)" class="product-title">小华</a>
@@ -128,7 +128,7 @@
             <div class="blank30"></div>
             <div class="my_right_item">
                 <div class="my_item_title">
-                    <img src="images/icon/sport2.png" alt="Product Image">
+                    <img src="../public/images/icon/sport2.png" alt="Product Image">
                     <div class="blank0"></div>
                     <a href="#">
                     <div class="title-font">Jack</div>
@@ -143,13 +143,13 @@
                    <br>
                    附上今天拍的照片,下次有这类活动我们再约!</p>
                     <div class="blank30"></div>
-                    <div class="my_item_img"><img src="images/run.jpg" ></div>
+                    <div class="my_item_img"><img src="../public/images/run.jpg" ></div>
 
                 </div>
             </div>
             <div class="my_right_item">
                 <div class="my_item_title">
-                    <img src="images/icon/sport2.png" alt="Product Image">
+                    <img src="../public/images/icon/sport2.png" alt="Product Image">
                     <div class="blank0"></div>
                     <a href="#">
                         <div class="title-font">小华</div>
@@ -163,13 +163,13 @@
                         <br>
                         明天和队友们好好练练配合,争取比赛拿得好成绩!</p>
                     <div class="blank30"></div>
-                    <div class="my_item_img"><img src="images/basketball.jpg" ></div>
+                    <div class="my_item_img"><img src="../public/images/basketball.jpg" ></div>
 
                 </div>
             </div>
             <div class="my_right_item">
                 <div class="my_item_title">
-                    <img src="images/icon/sport2.png" alt="Product Image">
+                    <img src="../public/images/icon/sport2.png" alt="Product Image">
                     <div class="blank0"></div>
                     <a href="#">
                     <div class="title-font">小宏</div>
@@ -183,7 +183,7 @@
                         <br>
                         附张图纪念一下~</p>
                     <div class="blank30"></div>
-                    <div class="my_item_img"><img src="images/run1.jpg" ></div>
+                    <div class="my_item_img"><img src="../public/images/run1.jpg" ></div>
 
                 </div>
             </div>
