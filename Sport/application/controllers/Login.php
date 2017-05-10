@@ -72,12 +72,16 @@ class Login extends CI_Controller {
         $this->form_validation->set_rules ( 'username', 'Username', 'required' );
         $this->form_validation->set_rules ( 'password', 'Password', 'required' );
         $this->form_validation->set_rules ( 'passwordagain', 'Password again', 'required' );
-        if ($this->form_validation->run () == FALSE||$_POST ['password']!=$_POST ['passwordagain']) {
+        if ($this->form_validation->run () == FALSE
+            ||$_POST ['password']!=$_POST ['passwordagain']
+            ||!preg_match("/^[a-zA-Z0-9]{6,15}$/",$_POST ['password'])) {
+
             $this->load->view ('login');
             $this->load->view ('login_register');
+
         } else {
 
-            $data = array (
+            $data = array(
                 'username' => $_POST ['username'],
                 'password' => $_POST ['password']
             );

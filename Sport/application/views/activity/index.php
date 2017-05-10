@@ -113,8 +113,15 @@
 <div class="footer"></div>
 <div class="edge edge-buttom"/>
 
+<script>
+var a = document.getElementsByTagName("id");
+    for(var i =0; i<a.length; i++){
+        a[i].onclick = (function(i){
+            return function(){change(i);}
+        })(i);
+    }
 
-
+</script>
 
 </body>
     </html>

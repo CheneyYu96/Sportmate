@@ -7,7 +7,6 @@
         <!--<label for="password">密码</label>-->
         <input class="form-control" type="password" placeholder="请输入密码：至少6位" id="password" name="password"/>
         <br />
-
         <input class="form-control" type="password" placeholder="再次输入密码" id="passwordagain" name="passwordagain"/>
         <br />
         <div class="account">

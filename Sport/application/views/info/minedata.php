@@ -283,6 +283,40 @@
 
 </script>
 
+<script language="javascript" type="text/javascript">
+    var xmlhttp;
+    function getData() {
+        var city = document.getElementById("txtCityName").value;
+        //IE
+        if (window.ActiveXObject) {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+        //FireFox
+        else if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest();
+            }
+        xmlhttp.onreadystatechange = statechange;
+        xmlhttp.Open("POST", "datapage.aspx?city=" + city, true);
+        xmlhttp.Send();
+        }
+    function statechange() {
+        if (xmlhttp.readystate == 4) {
+            if (xmlhttp.status == 200) {
+                FillData(xmlhttp.responseText);
+            }
+        }
+    }
+    function FillData(strcity) {
+        document.getElementById("selAreas").options.length = 0;
+        var strcitys = strcity.toString().split(',');
+        for (var i = 0; i < strcitys.length; i++) {
+            document.getElementById("selAreas").add(new Option(strcitys[i], strcitys[i]));
+        }
+    }
+
+
+</script>
 </body>
+
 
 </html>
